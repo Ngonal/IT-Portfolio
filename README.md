@@ -10,7 +10,7 @@ Hands-on lab portfolio showcasing practical experience in switching, routing, an
   </table>
 </p>
 
---
+----
 <div align="center">
 
 | Layer | Labs |
