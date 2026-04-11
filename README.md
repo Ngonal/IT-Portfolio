@@ -1,9 +1,9 @@
 # Information
 Hands-on lab portfolio showcasing practical experience in switching, routing, and security configurations, progressing from foundational setups to increasingly advanced and complex implementations. The Labs and their significance will be organized via the TCP/IP 5-Layer Network Model. A variety of networking simulators and emulators will be used depending on lab complexity. Emulator/Simulator software considered but not limited to: 
-![CML](https://img.shields.io/badge/Cisco-Modeling%20Labs-1BA0D7?style=flat&logo=cisco&logoColor=white)
+![CML](https://img.shields.io/badge/Cisco-CML-1BA0D7?style=flat&logo=cisco&logoColor=white)
 ![Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=flat&logo=cisco&logoColor=white)
 ![EVE-NG](https://img.shields.io/badge/EVE--NG-1A5276?style=flat&logo=vmware&logoColor=white)
-![GNS3](https://img.shields.io/badge/GNS3-000000?style=flat&logo=gns3&logoColor=white)
+![GNS3](https://img.shields.io/badge/GNS3-2C3E50?style=flat&logo=internet-computer&logoColor=white)
 
 | Layer | Labs |
 |---|---|
