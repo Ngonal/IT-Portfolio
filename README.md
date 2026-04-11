@@ -20,7 +20,7 @@ A range of simulators and emulators are utilized depending on lab complexity, en
 | Layer | Example | Labs |
 |:---|:---|:---|
 | 5 - Application | HTTP/HTTPS, DNS, DHCP, SSH, FTP, SMTP, SSL/TLS | [View Labs](Layer%205%20-%20Application) |
-| 4 - Transport | TCP, UDP, Port Numbers, Flow Control, Error Recovery, ACLs | [View Labs](Layer%204%20-%20Transport) |
+| 4 - Transport | TCP, UDP, ACLs, Port Numbers, Flow Control, Error Recovery | [View Labs](Layer%204%20-%20Transport) |
 | 3 - Network | IPv4, IPv6, ICMP, OSPF, BGP, Routers, Subnetting | [View Labs](Layer%203%20-%20Network) |
 | 2 - Data Link | Ethernet, MAC Addressing, VLANs, STP, Switches, Bridges | [View Labs](Layer%202%20-%20Data%20Link) |
 | 1 - Physical | Fiber Optics, Copper Cabling, Wi-Fi Radio, Repeaters, Hubs | [View Labs](Layer%201%20-%20Physical) |
