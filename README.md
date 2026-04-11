@@ -4,9 +4,7 @@ Hands-on lab portfolio showcasing practical experience in switching, routing, an
   <table align="center">
     <tr>
       <td align="center"><img src="README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"><br>Cisco Packet Tracer</td>
-      <td align="center" width="40"></td>
       <td align="center"><img src="README%20Elements/EVE-NG-logo.png" width="40"><br>EVE-NG</td>
-      <td align="center" width="40"></td>
       <td align="center"><img src="README%20Elements/GNS3-logo.png" width="40"><br>GNS3</td>
     </tr>
   </table>
