@@ -11,6 +11,7 @@ Hands-on lab portfolio showcasing practical experience in switching, routing, an
 </p>
 
 ---
+<div align="center">
 | Layer | Labs |
 |---|---|
 | 1 - Physical | [View Labs](Layer%201%20-%20Physical) |
@@ -18,3 +19,4 @@ Hands-on lab portfolio showcasing practical experience in switching, routing, an
 | 3 - Network | [View Labs](Layer%203%20-%20Network) |
 | 4 - Transport | [View Labs](Layer%204%20-%20Transport) |
 | 5 - Application | [View Labs](Layer%205%20-%20Application) |
+</div>
