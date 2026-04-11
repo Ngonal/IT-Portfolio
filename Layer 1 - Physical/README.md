@@ -11,7 +11,7 @@ The Physical Layer defines the electrical, mechanical, and procedural specificat
 
 | Name | Description | Simulator/Emulator | Type |
 |:---|:---|:---:|:---:|
-| Layer 1 Outage: Unpowered Switching Device | Two hosts are cabled to a common Layer 2 device but exhibit no link-layer connectivity. All interface LEDs on the switching device are dark, suggesting an absence of electrical power. Troubleshooting focuses on power sourcing, cabling integrity, and hardware failure indicators. | <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"> | Troubleshooting |
+| Layer 1 Outage: Unpowered Switching Device | Two hosts are connected to a common Layer 2 device but exhibit no link-layer connectivity. All interface LEDs on the switching device are dark, suggesting an absence of electrical power. Troubleshooting focuses on power sourcing, cabling integrity, and hardware failure indicators. | <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"> | Troubleshooting |
 
 </div>
 
