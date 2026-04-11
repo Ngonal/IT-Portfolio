@@ -19,9 +19,9 @@ The Physical Layer defines the electrical, mechanical, and procedural specificat
     -
 ## Common Commands
 ### Cisco IOS / IOS XE
-    **(no) shutdown** - administratively enables or disables the interface at Layer 1
-    **show ip interface brief** - displays the status of all Routed ports and Switchports
-    **show interface status** - displays the status of all Switchports
+- **(no) shutdown** - administratively enables or disables the interface at Layer 1
+- **show ip interface brief** - displays the status of all Routed ports and Switchports
+- **show interface status** - displays the status of all Switchports
 ### Juniper Junos OS
     -
 ### Fortinet FortiOS
