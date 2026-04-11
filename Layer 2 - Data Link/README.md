@@ -6,9 +6,9 @@ The Data Link Layer provides node-to-node data transfer and handles error correc
 ## Key Concepts Demonstrated
     -
 ## Common Commands
-# Cisco IOS / IOS XE
+### Cisco IOS / IOS XE
     -
-# Juniper Junos OS
+### Juniper Junos OS
     -
-# Fortinet FortiOS
+### Fortinet FortiOS
     -
