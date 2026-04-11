@@ -2,13 +2,13 @@
 ## Description
 Two hosts are connected to a common Layer 2 device but exhibit no link-layer connectivity. All interface LEDs on the switching device are dark, suggesting an absence of electrical power. Troubleshooting focuses on power sourcing, cabling integrity, and hardware failure indicators.
 
-## Diagnosis Log
+## Log
 ### Initial State
 <kbd>
   <img src="Elements/Step0.png">
 </kbd>
 
-### Actions Taken
+### Steps
 | Step | Observation | Action Taken | Result | Image |
 |:---|:---|:---|:---|:---:| 
 | 1 | One cable is disconnected from `Fa0/1` | Reconnected cable to `Fa0/1` | No change; switch LEDs remain unilluminated | <img src="Elements/Step1.png"> |
