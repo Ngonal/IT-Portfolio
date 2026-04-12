@@ -16,8 +16,6 @@ Two hosts are connected to a common Layer 2 device but exhibit no link-layer con
 | 3 | `Fa0/1` is administratively down | Issued `no shutdown` on interface | Port LED illuminates; link established | <img src="Elements/Step3.png"> |
 | 4 | Both hosts have link connectivity | Tested with `ping` | Communication successful | <img src="Elements/Step4.png"> |
 
----
-
 ## Bonus Tips
 
 The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
@@ -38,16 +36,12 @@ The `show ip interface brief` command provides a quick health check of all inter
   <i>Example: Fa0/1 showing "down/down" status prior to issuing `no shutdown`</i>
 </p>
 
----
-
 ## Results
 The root cause was a combination of Layer 1 failures:
 1. **Physical:** Disconnected cable and unpowered switch
 2. **Administrative:** Interface in `shutdown` state
 
 All three conditions required correction to restore full connectivity.
-
----
 
 <p align="center">
   <a href="https://github.com/Ngonal/Computer-Networking-Lab-Portfolio/blob/main/README.md">🏠 Home</a> &nbsp;|&nbsp;
