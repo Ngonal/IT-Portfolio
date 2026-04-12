@@ -8,19 +8,19 @@ A range of simulators and emulators are valid options depending on lab complexit
   <table align="center">
     <tr>
       <td align="center">
-        <a href="https://www.netacad.com/courses/packet-tracer" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.netacad.com/courses/getting-started-cisco-packet-tracer" target="_blank" rel="noopener noreferrer">
           <img src="README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"><br>
           Cisco Packet Tracer
         </a>
       </td>
       <td align="center">
-        <a href="https://www.eve-ng.net/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.eve-ng.net/index.php/download/" target="_blank" rel="noopener noreferrer">
           <img src="README%20Elements/EVE-NG-logo.png" width="40"><br>
           EVE-NG
         </a>
       </td>
       <td align="center">
-        <a href="https://www.gns3.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.gns3.com/software/download" target="_blank" rel="noopener noreferrer">
           <img src="README%20Elements/GNS3-logo.png" width="40"><br>
           GNS3
         </a>
