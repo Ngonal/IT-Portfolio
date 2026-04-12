@@ -1,7 +1,7 @@
 # Information
 Hands-on networking lab portfolio showcasing practical experience in switching, routing, and security configurations. Labs progress from foundational setups to increasingly advanced implementations, emphasizing both depth and real-world applicability.
 
-Content is organized using the TCP/IP 5-layer model, with each lab categorized by the highest layer it meaningfully interacts with (e.g., ACLs spanning Layer 3 IP filtering and Layer 4 port-based control). Labs are also aligned with the networking lifecycle, covering **Provisioning**, **Maintenance**, and **Troubleshooting**.
+Content is organized using the TCP/IP 5-layer model, with each lab categorized by the highest layer it meaningfully interacts with (e.g., ACLs spanning Layer 3 IP filtering and Layer 4 port-based control). Labs are also aligned with the most common networking lifecycle scenarios, covering **Provisioning**, **Maintenance**, and **Troubleshooting**.
 
 A range of simulators and emulators are valid options depending on lab complexity, ensuring both accessibility and realistic network behavior. Emulator/Simulator software considered but not limited to: 
 <p align="center">
