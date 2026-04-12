@@ -7,16 +7,6 @@ A range of simulators and emulators are valid options depending on lab complexit
 <p align="center">
   <table align="center">
     <tr>
-      <td align="center"><img src="README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"><br>Cisco Packet Tracer</td>
-      <td align="center"><img src="README%20Elements/EVE-NG-logo.png" width="40"><br>EVE-NG</td>
-      <td align="center"><img src="README%20Elements/GNS3-logo.png" width="40"><br>GNS3</td>
-    </tr>
-  </table>
-</p>
-
-<p align="center">
-  <table align="center">
-    <tr>
       <td align="center">
         <a href="https://www.netacad.com/courses/packet-tracer" target="_blank" rel="noopener noreferrer">
           <img src="README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"><br>
