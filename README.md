@@ -28,7 +28,9 @@ A range of simulators and emulators are valid options depending on lab complexit
     </tr>
   </table>
 </p>
+
 ---
+
 <div align="center">
 
 | Layer | Example | Labs |
