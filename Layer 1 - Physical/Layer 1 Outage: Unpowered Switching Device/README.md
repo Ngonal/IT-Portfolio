@@ -30,7 +30,7 @@ Two hosts are connected to a common Layer 2 device that exhibits no link-layer c
 | Step | Observation | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
 | 1 | Verified electrical outlet is working using a known-good device (receptable tester/phone charger connected to phone), `SW1` is plugged into electrical outlet, `SW1` power switch is in the **OFF** position | Toggled power switch to **ON** | `Fa0/2` LEDs illuminate; `Fa0/1` remains dark | <img src="Elements/Step1.png"> |
-| 2 | Cable connecting `PC1` to `Fa0/1` on `SW1` is disconnected | Reconnected cable to `Fa0/1` | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/Step2.png"> |
+| 2 | Cable connecting `PC1` to `SW1` VIA `Fa0/1` is disconnected | Reconnected cable to `Fa0/1` | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/Step2.png"> |
 | 3 | `Fa0/1` is administratively down | Issued `no shutdown` on interface | Port LED illuminates; link established | <img src="Elements/Step3.png"> |
 | 4 | Both hosts have link connectivity | Tested with `ping` | Communication successful | <img src="Elements/Step4.png"> |
 
