@@ -6,6 +6,8 @@
   <a href="https://github.com/Ngonal/Computer-Networking-Lab-Portfolio/blob/main/Layer%205%20-%20Application/">📁 Layer 5 - Application</a>
 </p>
 
+---
+
 # Layer 1 - Physical
 
 ## Core Function
