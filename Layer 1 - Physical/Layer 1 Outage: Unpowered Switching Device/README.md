@@ -17,7 +17,7 @@ Two hosts are connected to a common Layer 2 device but exhibit no link-layer con
 | 4 | Both hosts have link connectivity | Tested with `ping` | Communication successful | <img src="Elements/Step4.png"> |
 
 ## Bonus Tips
-### 1. The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
+### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
 
 - **Administratively Down / Down** — Interface is disabled with `shutdown` command
 - **Down / Down (with cable connected)** — Possible faulty cable, incorrect cable type, or defective interface
