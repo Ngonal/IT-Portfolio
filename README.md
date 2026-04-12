@@ -34,7 +34,7 @@ A range of simulators and emulators are valid options depending on lab complexit
 <div align="center">
 
 | Layer | Devices | Protocols/Tech | Labs |
-|:---|:---|:---|:---|
+|:---:|:---|:---|:---|
 | 5 - Application | Servers, Load Balancers, Firewalls (NGFW / L7) | HTTP, DNS, DHCP, SSH, FTP, SMTP, NTP, SNMP, Syslog | [View Labs](Layer%205%20-%20Application) |
 | 4 - Transport | Firewalls (stateful), Load Balancers | TCP, UDP, Port Numbers, Flow Control, Error Recovery | [View Labs](Layer%204%20-%20Transport) |
 | 3 - Network | Routers, Layer 3 Switches, Firewalls | IPv4, IPv6, ICMP, OSPF, BGP, RIP, EIGRP, VRF, NAT, HSRP, Subnetting, VLSM, ACLs | [View Labs](Layer%203%20-%20Network) |
