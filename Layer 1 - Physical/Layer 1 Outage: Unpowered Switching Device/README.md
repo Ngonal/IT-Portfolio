@@ -1,8 +1,7 @@
 # Layer 1 Outage: Unpowered Switching Device
 
-## Lab File
 <p align="center">
-  Lab:
+  ##Lab:##
   <a href="https://github.com/Ngonal/Networking-Lab-Portfolio/raw/main/Layer%201%20-%20Physical/Layer%201%20Outage:%20Unpowered%20Switching%20Device/Layer%201 Outage%20Unpowered%20Switching%20Device.pkt">
     <kbd>⬇️ Download Lab File</kbd>
   </a>
