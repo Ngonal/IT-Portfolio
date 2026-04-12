@@ -18,14 +18,6 @@ Two hosts are connected to a common Layer 2 device but exhibit no link-layer con
 
 ## Bonus Tips
 
-<kbd>
-  <img src="Elements/Bonus.png" border="1">
-</kbd>
-
-<p align="center">
-  <i>Example: Fa0/1 showing "down/down" status prior to issuing `no shutdown`</i>
-</p>
-
 The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
 
 - **Administratively Down / Down** — Interface is disabled with `shutdown` command
@@ -35,6 +27,14 @@ The `show ip interface brief` command provides a quick health check of all inter
 > 💡 **Quick Tip:** To isolate whether the issue is the cable or the interface, swap with a **known-good cable**:
 > - If the link comes up → Original cable was faulty
 > - If the link remains down → Interface or connected device may be defective
+
+<kbd>
+  <img src="Elements/Bonus.png" border="1">
+</kbd>
+
+<p align="center">
+  <i>Example: Fa0/1 showing "down/down" status after issuing `no shutdown`</i>
+</p>
 
 ## Results
 The root cause was a combination of Layer 1 failures:
