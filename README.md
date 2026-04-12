@@ -35,10 +35,10 @@ A range of simulators and emulators are valid options depending on lab complexit
 
 | Layer | Example | Labs |
 |:---|:---|:---|
-| 5 - Application | HTTP/HTTPS, DNS, DHCP, SSH, FTP, SMTP, SSL/TLS, NTP, SNMP, Syslog, QoS | [View Labs](Layer%205%20-%20Application) |
-| 4 - Transport | TCP, UDP, ACLs, Port Numbers, Flow Control, Error Recovery, PAT | [View Labs](Layer%204%20-%20Transport) |
-| 3 - Network | IPv4, IPv6, ARP, VRF, NAT, ICMP, OSPF, BGP, RIP, EIGRP, HSRP, CDP, LLDP, Routers, Subnetting, VLSM, EtherChannel | [View Labs](Layer%203%20-%20Network) |
-| 2 - Data Link | Ethernet, MAC Addressing, VLANs, STP, DTP, VTP Switches, Bridges | [View Labs](Layer%202%20-%20Data%20Link) |
-| 1 - Physical | Fiber Optics, Copper Cabling, Wi-Fi Radio, Repeaters, Hubs | [View Labs](Layer%201%20-%20Physical) |
+| 5 - Application | HTTP, DNS, DHCP, SSH, FTP, SMTP, NTP, SNMP, Syslog | [View Labs](Layer%205%20-%20Application) |
+| 4 - Transport | TCP, UDP, Port Numbers, Flow Control, Error Recovery | [View Labs](Layer%204%20-%20Transport) |
+| 3 - Network | IPv4, IPv6, ICMP, OSPF, BGP, RIP, EIGRP, VRF, NAT, HSRP, Subnetting, VLSM, ACLs | [View Labs](Layer%203%20-%20Network) |
+| 2 - Data Link | Ethernet, MAC Addressing, VLANs, STP, DTP, VTP, ARP, CDP, LLDP, EtherChannel | [View Labs](Layer%202%20-%20Data%20Link) |
+| 1 - Physical | Fiber Optics, Copper Cabling, Wi-Fi (PHY), Repeaters, Hubs | [View Labs](Layer%201%20-%20Physical) |
 
 </div>
