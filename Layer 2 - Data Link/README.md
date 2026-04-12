@@ -14,8 +14,6 @@ The Data Link Layer provides node-to-node data transfer and handles error correc
 
 </div>
 
-## Key Concepts Demonstrated
-- 
 ## Common Commands
 ### Cisco IOS / IOS XE
 - 
