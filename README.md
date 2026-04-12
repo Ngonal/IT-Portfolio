@@ -8,7 +8,7 @@ A range of simulators and emulators are valid options depending on lab complexit
   <table align="center">
     <tr>
       <td align="center">
-        <a href="https://www.netacad.com/courses/getting-started-cisco-packet-tracer" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
           <img src="README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"><br>
           Cisco Packet Tracer
         </a>
