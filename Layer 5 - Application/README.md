@@ -14,8 +14,6 @@ The Application Layer is the closest layer to the end user, providing network se
 
 </div>
 
-## Key Concepts Demonstrated
-- 
 ## Common Commands
 ### Cisco IOS / IOS XE
 - 
