@@ -46,7 +46,7 @@ A range of simulators and emulators are valid options depending on lab complexit
 ## General Commands
 ### Cisco IOS / IOS XE
 - **`enable`**  
-Transitions the user from `user EXEC` (the initial mode when accessing the CLI) mode to `privileged EXEC` mode, granting access to advanced monitoring and configuration commands.
+Transitions the user from `user EXEC` mode (the initial mode when accessing the CLI) to `privileged EXEC` mode, granting access to advanced monitoring and configuration commands.
 - **`configure terminal`**  
 Enters `global configuration` mode from `privileged EXEC` mode, allowing the user to modify the device’s running configuration.
 - **`?`**  
