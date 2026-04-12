@@ -18,7 +18,7 @@ Two hosts are connected to a common Layer 2 device but exhibit no link-layer con
 
 ---
 
-## Interface Status Verification
+## Bonus Tips
 
 The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
 
