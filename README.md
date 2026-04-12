@@ -1,5 +1,3 @@
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
 # Information
 Hands-on networking lab portfolio showcasing practical experience in switching, routing, and security configurations. Labs progress from foundational setups to increasingly advanced implementations, emphasizing both depth and real-world applicability.
 
@@ -28,6 +26,3 @@ A range of simulators and emulators are valid options depending on lab complexit
 | 1 - Physical | Fiber Optics, Copper Cabling, Wi-Fi Radio, Repeaters, Hubs | [View Labs](Layer%201%20-%20Physical) |
 
 </div>
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="andrew-gager" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/andrew-gager?trk=profile-badge">Andrew G.</a></div>
-              
