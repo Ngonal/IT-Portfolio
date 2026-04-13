@@ -66,7 +66,8 @@ Commonly used in `privileged EXEC` mode to verify status, interfaces, routing, a
 - **`write`**, **`write memory`**, **`copy running-config startup-config`**  
 Saves the active `running-config` (in RAM) to the `startup-config` (in NVRAM). All three commands perform the same function: copying the active (running) configuration in RAM to NVRAM so it is retained after a reboot.
 >💡 **Quick Tip(s):** The commands available and how you interact with the device’s operating system depend on the current CLI mode. There are also a number of hotkeys to better navigate the Cisco IOS / IOS XE CLI:
-> - Press `TAB` to autocomplete a partially typed command or keyword. If the abbreviation is unambiguous (e.g., `en` for `enable`), the OS accepts it without requiring the full command.
+> - It is possible to use partially complete keywords if it's unambiguous (e.g., `en` for `enable`), the OS accepts it without requiring the full command.
+> - Press `TAB` to autocomplete a partially typed command or keyword.
 > - Use the `UP` and `DOWN` arrow keys to navigate through command history. Press `ENTER` to execute a selected command..
 > - Press `Ctrl + A` to move the cursor to the beginning of the command line.
 > - Press `Ctrl + E` to move the cursor to the end of the command line.
