@@ -43,7 +43,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     </td>
     <td>Restored network connectivity through methodical Layer 1 diagnostics.</td>
   <tr>
-    <td></td>
+    <th></th>
   </tr>
 </table>
 
