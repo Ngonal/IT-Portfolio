@@ -33,7 +33,6 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
 
 <table>
   <tr>
-    <th>Lab Name</th>
     <th>Type</th>
     <th>Technologies</th>
     <th>Simulator/Emulator</th>
