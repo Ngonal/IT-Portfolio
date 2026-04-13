@@ -46,6 +46,13 @@
 | 3 | `Fa0/1` is administratively down | Issued `no shutdown` on interface | Port LED illuminates; link established | <img src="Elements/Step3.png"> |
 | 4 | Both hosts have link connectivity | Tested with `ping` | Communication successful | <img src="Elements/Step4.png"> |
 
+### Conclusion
+The root cause was a combination of Layer 1 failures:
+1. **Physical:** Disconnected cable and unpowered switch
+2. **Administrative:** Interface in `shutdown` state
+
+All three conditions required correction to restore full connectivity.
+
 ## Bonus Tips
 ### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
 
@@ -73,14 +80,6 @@
 > 💡 **Quick Tip(s):** A cable connects two devices. If the link doesn't come up, the fault could be the cable, the local interface, or **the remote device on the other end**. Swap with a known-good cable first:
 > - If the link comes up → Original cable was faulty
 > - Link remains down → Investigate both the local port and the far-end device
-
-
-## Conclusion
-The root cause was a combination of Layer 1 failures:
-1. **Physical:** Disconnected cable and unpowered switch
-2. **Administrative:** Interface in `shutdown` state
-
-All three conditions required correction to restore full connectivity.
 
 ---
 
