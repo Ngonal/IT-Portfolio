@@ -61,6 +61,7 @@ Allows execution of `privileged EXEC` mode commands while in various configurati
 - **`exit`**  
 Exits the current mode and returns to the previous mode.
 > 💡 **Quick Tips:**
+> - The commands available and how you interact with the device’s operating system depend on the current CLI mode.
 > - Press `TAB` to autocomplete a partially typed command or keyword.
 > - Use the `UP` and `DOWN` arrow keys to navigate through command history. Press `ENTER` to execute a selected command..
 > - Press `Ctrl + A` to move the cursor to the beginning of the command line.
