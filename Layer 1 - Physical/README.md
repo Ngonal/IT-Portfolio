@@ -57,31 +57,6 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
 </table>
 
 
-<table>
-  <tr>
-    <th colspan="6" style="padding: 10px; background-color: #f6f8fa; border-bottom: 2px solid #d0d7de; font-size: 1.1em;">
-      📋 Layer 1 Labs
-    </th>
-  </tr>
-  <tr>
-    <th>Lab Name</th>
-    <th>Type</th>
-    <th>Technologies</th>
-    <th>Simulator</th>
-    <th>Vendors</th>
-    <th>Key Demonstrations</th>
-  </tr>
-  <tr>
-    <td>Outage: Unpowered Switching Device</td>
-    <td align="center">Troubleshooting</td>
-    <td>Physical Layer, Cabling, Interface State</td>
-    <td align="center"><img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="24"></td>
-    <td align="center">Cisco</td>
-    <td>Restored network connectivity through methodical Layer 1 diagnostics and interface state remediation.</td>
-  </tr>
-</table>
-
-
 ##### 📋 Layer 1 Physical Labs
 
 | Lab Name | Type | Technologies | Simulator | Vendors | Key Demonstrations |
