@@ -7,7 +7,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
 
 <table>
   <tr>
-    <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
+    <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: center;">
       <b>🖥 Lab Name:</b>
       <a href="/Layer%201%20-%20Physical/Outage-Unpowered-Switching-Device">
         Outage: Unpowered Switching Device
