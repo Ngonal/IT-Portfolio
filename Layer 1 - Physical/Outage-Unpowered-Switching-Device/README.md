@@ -27,7 +27,7 @@
 ## 📖 Log
 ### Initial State
 <kbd>
-  <img src="Elements/Step0.png">
+  <img src="Elements/Step0.png" width="70%">
 </kbd>
 
 ### Steps
