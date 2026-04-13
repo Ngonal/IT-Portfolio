@@ -44,6 +44,50 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     <td>Restored network connectivity through methodical Layer 1 diagnostics.</td>
 </table>
 
+<table>
+  <!-- Lab Name Row -->
+  <tr>
+    <td colspan="5" style="padding: 12px 16px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de;">
+      <span style="font-size: 1.4em; font-weight: 700;">📋 Outage: Unpowered Switching Device</span>
+    </td>
+  </tr>
+  
+  <!-- Scenario Row -->
+  <tr>
+    <td colspan="5" style="padding: 10px 16px; background-color: #f6f8fa; border-bottom: 2px solid #d0d7de;">
+      <b>📋 Scenario:</b> Two hosts connected to a common Layer 2 device are unable to communicate with each other. The device exhibits no link-layer connectivity, and all interface LEDs on the switching device are dark—suggesting an absence of electrical power.
+    </td>
+  </tr>
+  
+  <!-- Column Headers -->
+  <tr>
+    <th style="padding: 8px 12px;">Type</th>
+    <th style="padding: 8px 12px;">Technologies</th>
+    <th style="padding: 8px 12px;">Simulator</th>
+    <th style="padding: 8px 12px;">Vendors</th>
+    <th style="padding: 8px 12px;">Key Demonstrations</th>
+  </tr>
+  
+  <!-- Data Row -->
+  <tr>
+    <td align="center" valign="middle" style="padding: 10px;">Troubleshooting</td>
+    <td valign="middle" style="padding: 10px;">Physical Layer, Cabling, Interface State</td>
+    <td align="center" valign="middle" style="padding: 10px;">
+      <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
+        <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="36">
+      </a>
+    </td>
+    <td align="center" valign="middle" style="padding: 10px;">
+      <a href="https://www.cisco.com/" target="_blank" rel="noopener noreferrer">
+        <img src="../README%20Elements/Cisco-logo.png" width="36">
+      </a>
+    </td>
+    <td valign="middle" style="padding: 10px;">Restored network connectivity through methodical Layer 1 diagnostics.</td>
+  </tr>
+</table>
+
+
+
 
 ## Common Commands
 ### Cisco IOS / IOS XE
