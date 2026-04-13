@@ -17,7 +17,7 @@ The Physical Layer defines the electrical, mechanical, and procedural specificat
 
 ## Common Commands
 ### Cisco IOS / IOS XE
-- **`(no) shutdown`**  
+- **`shutdown`**  
 Changes the administrative state of an interface. `shutdown` disables the interface, placing it in `administratively down` status and preventing any Layer 1 or Layer 2 activity. `no shutdown` enables the interface, allowing it to attempt link establishment.
 - **`show ip interface brief`**  
 Displays a concise summary of all interfaces, including their IP addresses, administrative status (Layer 1), and protocol status (Layer 2). On switches, this includes both physical switchports (showing `unassigned` for the IP field) and SVIs. Useful for quickly identifying interface operational state regardless of interface type.
