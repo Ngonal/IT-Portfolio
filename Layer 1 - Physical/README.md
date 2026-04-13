@@ -9,6 +9,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
   <tr>
     <th height="50" align="left" colspan="6"></th>
   </tr>
+
   <tr>
     <th align="left" colspan="6">
       <b>🖥 Lab Name:</b>
@@ -18,22 +19,37 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     </th>
   </tr>
   
-  <tr>
+<tr>
     <th align="left" colspan="6">
       <b>📋 Scenario:</b> Two hosts connected to a common Layer 2 device are unable to communicate with each other. The device exhibits no link-layer connectivity, and all interface LEDs on the switching device are dark—suggesting an absence of electrical power.
+    </th>
+</tr>
+  
+  <tr>
+    <th>
+      Type
+    </th>
+    <th>
+      Technologies
+    </th>
+    <th>
+      Simulator
+    </th>
+    <th>
+      Vendors
+    </th>
+    <th>
+      Key Demonstrations
     </th>
   </tr>
   
   <tr>
-    <th>Type</th>
-    <th>Technologies</th>
-    <th>Simulator</th>
-    <th>Vendors</th>
-    <th>Key Demonstrations</th>
-  </tr>
-  <tr>
-    <td align="center">Troubleshooting</td>
-    <td>Physical Layer, Cabling, Interface State</td>
+    <td align="center">
+      Troubleshooting
+    </td>
+    <td>
+      Physical Layer, Cabling, Interface State
+    </td>
     <td align="center">
       <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
         <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40">
@@ -44,7 +60,11 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
         <img src="../README%20Elements/Cisco-logo.png" width="40">
       </a>
     </td>
-    <td>Restored network connectivity through methodical Layer 1 diagnostics.</td>
+    <td>
+      Restored network connectivity through methodical Layer 1 diagnostics.
+    </td>
+  </tr>
+    
   <tr>
     <th height="50" align="left" colspan="6"></th>
   </tr>
