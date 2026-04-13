@@ -53,10 +53,6 @@
 - **Down / Down (with cable connected)** — Possible faulty cable, incorrect cable type, or defective interface
 - **Down / Down (no cable)** — No physical connection detected
 
-> 💡 **Quick Tip(s):** A cable connects two devices. If the link doesn't come up, the fault could be the cable, the local interface, or **the remote device on the other end**. Swap with a known-good cable first:
-> - If the link comes up → Original cable was faulty
-> - Link remains down → Investigate both the local port and the far-end device
-
 <p align="center">
   <table align="center">
     <tr>
@@ -73,6 +69,10 @@
     </tr>
   </table>
 </p>
+
+> 💡 **Quick Tip(s):** A cable connects two devices. If the link doesn't come up, the fault could be the cable, the local interface, or **the remote device on the other end**. Swap with a known-good cable first:
+> - If the link comes up → Original cable was faulty
+> - Link remains down → Investigate both the local port and the far-end device
 
 
 ## Conclusion
