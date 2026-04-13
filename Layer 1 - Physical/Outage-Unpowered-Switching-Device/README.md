@@ -27,12 +27,6 @@
 ## 📖 Log
 ### Initial State
 <p align="center">
-  <kbd style="display: inline-block;">
-    <img src="Elements/Step0.png" width="80%">
-  </kbd>
-</p>
-
-<p align="center">
   <img src="Elements/Step0.png" width="70%" border="1">
 </p>
 
