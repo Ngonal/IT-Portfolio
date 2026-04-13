@@ -41,8 +41,7 @@ Two hosts attempting communications are connected to a common Layer 2 device tha
 - **Down / Down (with cable connected)** — Possible faulty cable, incorrect cable type, or defective interface
 - **Down / Down (no cable)** — No physical connection detected
 
-> 💡 **Quick Tips:**
->  A cable connects two devices. If the link doesn't come up, the fault could be the cable, the local interface, or **the remote device on the other end**. Swap with a known-good cable first:
+> 💡 **Quick Tips:** A cable connects two devices. If the link doesn't come up, the fault could be the cable, the local interface, or **the remote device on the other end**. Swap with a known-good cable first:
 > - If the link comes up → Original cable was faulty
 > - Link remains down → Investigate both the local port and the far-end device
 
