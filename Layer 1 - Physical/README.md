@@ -22,6 +22,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
   </tr>
   
   <tr>
+    <th>Lab</th>
     <th>Type</th>
     <th>Technologies</th>
     <th>Simulator</th>
@@ -29,6 +30,11 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     <th>Key Demonstrations</th>
   </tr>
   <tr>
+    <td align="center">
+      <a href="/Layer%201%20-%20Physical/Outage-Unpowered-Switching-Device">
+        Outage: Unpowered Switching Device
+      </a>
+    </td>
     <td align="center">Troubleshooting</td>
     <td>Physical Layer, Cabling, Interface State</td>
     <td align="center">
