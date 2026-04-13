@@ -39,7 +39,7 @@
     <tr>
       <td align="center">
         <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
-          <img src="Elements/Step0.png" width="70%" border="1">
+          <img src="Elements/Step0.png" width="40" border="1">
         </a>
       </td>
     </tr>
