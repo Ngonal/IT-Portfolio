@@ -55,10 +55,10 @@
   <tr >
     <th align="center" colspan="6" style="background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
       <img src="Elements/Bonus1.png" width="70%" border="1">
-    </th>
-    <p align="center">
+      <p align="center">
   <i>Example: Fa0/1 showing "down/down" status after issuing `no shutdown`</i>
 </p>
+    </th>
   </tr>
 <table>
 
