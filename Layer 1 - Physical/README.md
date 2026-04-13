@@ -6,16 +6,64 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
 # Labs
 
 <table>
-
- 
+  
+  
+  
   <tr>
-    <th align="left" colspan="6">
-      <b>🖥 Lab Name:</b>
+    <th>
+      Name
+    </th>
+    <th>
+      Type
+    </th>
+    <th>
+      Technologies
+    </th>
+    <th>
+      Simulator
+    </th>
+    <th>
+      Vendors
+    </th>
+    <th>
+      Key Demonstrations
+    </th>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="/Layer%201%20-%20Physical/Outage-Unpowered-Switching-Device">
         Outage: Unpowered Switching Device
       </a>
-    </th>
+    </td>
+    <td align="center">
+      Troubleshooting
+    </td>
+    <td>
+      Physical Layer, Cabling, Interface State
+    </td>
+    <td align="center">
+      <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
+        <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.cisco.com/" target="_blank" rel="noopener noreferrer">
+        <img src="../README%20Elements/Cisco-logo.png" width="40">
+      </a>
+    </td>
+    <td>
+      Restored network connectivity through methodical Layer 1 diagnostics.
+    </td>
   </tr>
+  
+  
+  
+  <tr>
+    <th height="50" align="left" colspan="6"></th>
+  </tr>
+  
+  
+
   <tr>
     <th>
       Name
@@ -63,71 +111,6 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     </td>
   </tr>
 
-
-
-    
-  <tr>
-    <th height="50" align="left" colspan="6"></th>
-  </tr>
-
-
-
-
-<tr>
-    <th align="left" colspan="6">
-      <b>🖥 Lab Name:</b>
-      <a href="/Layer%201%20-%20Physical/Speed-Mismatch-Intermittent-Link-Flapping">
-        Speed Mismatch: Intermittent Link Flapping
-      </a>
-    </th>
-  </tr>
-  <tr>
-    <th>
-      Name
-    </th>
-    <th>
-      Type
-    </th>
-    <th>
-      Technologies
-    </th>
-    <th>
-      Simulator
-    </th>
-    <th>
-      Vendors
-    </th>
-    <th>
-      Key Demonstrations
-    </th>
-  </tr>
-  <tr>
-    <th align="left" colspan="6">
-      <b>🖥 Lab Name:</b>
-      <a href="/Layer%201%20-%20Physical/Speed-Mismatch-Intermittent-Link-Flapping">
-        Speed Mismatch: Intermittent Link Flapping
-      </a>
-    </th>
-    <td align="center">
-      Troubleshooting
-    </td>
-    <td>
-      Ethernet Signaling, Auto-Negotiation, Interface Speed, Link Flapping, Physical Layer
-    </td>
-    <td align="center">
-      <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
-        <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.cisco.com/" target="_blank" rel="noopener noreferrer">
-        <img src="../README%20Elements/Cisco-logo.png" width="40">
-      </a>
-    </td>
-    <td>
-      Identified speed mismatch through interface status inspection; resolved by hard-coding matching speed settings on both ends to stabilize the physical link.
-    </td>
-  </tr>
 
   
 </table>
