@@ -39,6 +39,8 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     </th>
 </tr>
 
+---
+
 <tr>
     <th>Lab</th>
     <th>Type</th>
