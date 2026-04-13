@@ -29,7 +29,7 @@ A range of simulators and emulators are valid options depending on lab complexit
   </table>
 </p>
 
----
+# Labs
 
 <div align="center">
 
