@@ -29,7 +29,9 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
   <tr>
     <td align="center">Troubleshooting</td>
     <td>Physical Layer, Cabling, Interface State</td>
-    <td align="center"><img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"></td>
+    <td align="center"><a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
+      <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40">
+    </a></td>
     <td align="center"><img src="../README%20Elements/Cisco-logo.png" width="40"></td>
     <td>Restored network connectivity through methodical Layer 1 diagnostics.</td>
   </tr>
