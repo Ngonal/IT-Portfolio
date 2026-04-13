@@ -21,8 +21,8 @@
 <ul style="margin: 8px 0 0 0; padding-left: 20px;">
         <li>Two hosts attempting communications are connected to a common Layer 2 device</li>
         <li>The device exhibits no link-layer connectivity</li>
-        <li>All interface LEDs on the switching device are dark, suggesting an absence of electrical power
-</li>
+        <li>All interface LEDs on the switching device are dark, suggesting an absence of electrical power</li>
+</ul>
 
 ## Log
 ### Initial State
