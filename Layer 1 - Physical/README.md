@@ -35,7 +35,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       </a>
     </td>
     <td align="center">
-      <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.cisco.com/" target="_blank" rel="noopener noreferrer">
         <img src="../README%20Elements/Cisco-logo.png" width="40">
       </a>
     </td>
