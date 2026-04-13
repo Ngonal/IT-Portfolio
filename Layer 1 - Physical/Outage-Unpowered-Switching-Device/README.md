@@ -20,21 +20,6 @@
 
 ## Log
 ### Initial State
-<p>
-  <table>
-    <tr >
-      <th align="center" colspan="6" style="background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <img src="Elements/Step0.png" width="70%" border="1">
-      </th>
-    </tr>
-    <tr>
-      <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <b>📋 Scenario:</b> Two hosts connected to a common Layer 2 device are unable to communicate with each other. The device exhibits no link-layer connectivity, and all interface LEDs on the switching device are dark—suggesting an absence of electrical power.
-      </th>
-    </tr>
-  </table>
-</p>
-
 <p align="center">
   <table align="center">
     <tr>
