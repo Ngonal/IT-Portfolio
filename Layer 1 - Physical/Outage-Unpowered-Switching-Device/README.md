@@ -20,7 +20,7 @@
 
 ## Log
 ### Initial State
-<p align="center">
+<p align="center" width="800" >
   <table align="center">
     <tr width="800">
       <td align="center">
