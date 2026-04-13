@@ -21,9 +21,11 @@
 ### Initial State
 <table>
   <tr>
+    <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
     <p align="center">
       <img src="Elements/Step0.png" width="70%" border="1">
     </p>
+    </th>
   </tr>
   <tr>
     <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
