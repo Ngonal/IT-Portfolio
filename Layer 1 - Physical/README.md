@@ -41,9 +41,6 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
     <th>Key Demonstrations</th>
   </tr>
   <tr>
-    <td><a href="/Layer%201%20-%20Physical/Outage-Unpowered-Switching-Device">
-        Outage: Unpowered Switching Device
-      </a></td>
     <td>Troubleshooting</td>
     <td>Physical Layer, Cabling, Interface State</td>
     <td align="center">
