@@ -11,7 +11,9 @@ The Physical Layer defines the electrical, mechanical, and procedural specificat
 
 | Lab Name | Type | Technologies | Simulator/Emulator | Vendors | Key Demonstrations |
 |:---|:---|:---:|:---:|:---:|:---:|
-| [Layer 1 Outage: Unpowered Switching Device](/Layer%201%20-%20Physical/Layer%201%20Outage:%20Unpowered%20Switching%20Device) | Troubleshooting | Physical Layer, Cabling, Interface State | <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"> | <img src="../README%20Elements/Cisco-logo.png" width="40"> | Restored network connectivity through methodical Layer 1 diagnostics and interface state remediation. |
+| <a href="/Layer%201%20-%20Physical/Layer%201%20Outage:%20Unpowered%20Switching%20Device">
+        Layer 1 Outage: Unpowered Switching Device
+      </a> | Troubleshooting | Physical Layer, Cabling, Interface State | <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40"> | <img src="../README%20Elements/Cisco-logo.png" width="40"> | Restored network connectivity through methodical Layer 1 diagnostics and interface state remediation. |
 <table>
   <tr>
     <td>
