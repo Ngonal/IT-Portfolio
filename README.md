@@ -54,8 +54,8 @@ Provides context-sensitive help:
   - When used after a command with a space (e.g., `show ?`), it displays available subcommands or arguments.
   - When used immediately after a partial command (e.g., `con?`), it attempts to show matching options.
   - In context-sensitive help, `<cr>` (carriage return) indicates that the command is complete and can be executed by pressing `Enter`. Additional arguments may still be available, but they are optional when `<cr>` is shown.
-- ** `no`** 
-  Negates or removes a commands effect when prefixed before the command . This is commonly used to disable features or delete configuration statements (e.g., `no shutdown`, `no ip address`).
+- **`no`** 
+Negates or removes a commands effect when prefixed before the command . This is commonly used to disable features or delete configuration statements (e.g., `no shutdown`, `no ip address`).
 > 💡 **Quick Tip:**
 > - Press `TAB` to autocomplete a partially typed command or keyword.
 > - Use the `UP` and `DOWN` arrow keys to navigate through command history. Press `ENTER` to execute a selected command..
