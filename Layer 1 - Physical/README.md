@@ -19,7 +19,7 @@ The Physical Layer defines the electrical, mechanical, and procedural specificat
     <th>Key Demonstrations</th>
   </tr>
   <tr>
-    <td><a href="/Layer%201%20-%20Physical/Outage_Unpowered_Switching_Device">
+    <td><a href="/Layer%201%20-%20Physical/Outage-Unpowered-Switching-Device">
         Outage: Unpowered Switching Device
       </a></td>
     <td>Troubleshooting</td>
