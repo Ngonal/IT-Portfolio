@@ -87,7 +87,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
   <tr>
     <td align="center">
       <a href="/Layer%201%20-%20Physical/Link-Stability-and-Interface-Configuration">
-        Link Stability and Interface Configuration
+        Link Stability and Interface Speed
       </a>
     </td>
     <td>
