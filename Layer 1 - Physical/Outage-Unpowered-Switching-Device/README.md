@@ -42,7 +42,7 @@
 | Step | Observation | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
 | 1 | `SW1` is plugged into electrical outlet, verified electrical outlet is working using a known-good device (receptable tester/phone charger connected to phone), reconnected power cable to no effect, `SW1` power switch is in the **OFF** position | Toggled power switch to **ON** | `Fa0/2` LEDs illuminate; `Fa0/1` remains unlit | <img src="Elements/Step1.png"> |
-| 2 | RJ45 connector for `PC1` disconnected from `Fa0`, RJ45 connector for `SW1` still connected to `Fa0/1` | Reconnected cable to `Fa0` | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/Step2.png"> |
+| 2 | RJ45 connector of cable for `SW1` still connected to `Fa0/1`, using cable tester on this end reveals a short on the other side of connection, RJ45 connector for `PC1` disconnected from `Fa0` | Reconnected cable to `Fa0` | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/Step2.png"> |
 | 3 | `Fa0/1` is administratively down | Issued `no shutdown` on interface | Port LED illuminates; link established | <img src="Elements/Step3.png"> |
 | 4 | Both hosts have link connectivity | Tested with `ping` | Communication successful | <img src="Elements/Step4.png"> |
 
