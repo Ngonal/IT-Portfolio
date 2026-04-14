@@ -39,7 +39,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       Troubleshooting
     </td>
     <td>
-      Cabling, Interface State
+      Physical Troubleshooting, Fault Isolation, Bottom-Up Methodology, Administrative State
     </td>
     <td align="center">
       <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
@@ -94,7 +94,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       Troubleshooting
     </td>
     <td>
-      Interface Speed, Signaling Rate
+      Auto-Negotiation, Interface Speed, Configuration Consistency
     </td>
     <td align="center">
       <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
