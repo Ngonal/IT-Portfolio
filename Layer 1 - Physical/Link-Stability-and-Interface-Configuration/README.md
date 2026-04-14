@@ -1,4 +1,4 @@
-# Outage: Unpowered Switching Device
+# Link Stability and Interface Configuration
 
 ## Lab File
 
