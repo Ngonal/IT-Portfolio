@@ -97,7 +97,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       </a>
     </td>
     <td>
-      Identified speed mismatch through interface status inspection; resolved by hard-coding matching speed settings on both ends to stabilize the physical link.
+      Restored stable inter-switch connectivity through systematic interface diagnostics and configuration alignment.
     </td>
   </tr>
 
