@@ -107,8 +107,8 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       </a>
     </td>
     <td>
-      <p><b>📋 Symptoms:</b> Intermittent link flapping, interface LEDs cycling amber/green, ~50% packet loss between segments following hardware replacement.</p>
-<p><b>🔍 Root Cause:</b> Mismatched interface speed and duplex settings introduced during hardware refresh; one side hard-coded, the other auto-negotiating.</p>
+      <p><b>📋 Symptoms:</b> End users report slow network speeds and sporadic connectivity between segments following hardware replacement. Intermittent link flapping observed between new switches; interface LEDs cycle amber/green; continuous pings show significant packet loss.</p>
+  <p><b>🔍 Root Cause:</b> Mismatched interface speed and duplex settings introduced during hardware refresh; one side hard-coded, the other auto-negotiating.</p>
     </td>
   </tr>
 
