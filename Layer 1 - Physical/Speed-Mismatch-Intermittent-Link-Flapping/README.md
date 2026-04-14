@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <b>📋 Scenario:</b> Two hosts connected to a common Layer 2 device are unable to communicate with each other. The device exhibits no link-layer connectivity, and all interface LEDs on the switching device are dark—suggesting an absence of electrical power.
+        <b>📋 Scenario:</b> Two aging access switches were recently replaced with new hardware. Following the replacement, the link between the two new switches intermittently drops and re-establishes. Interface LEDs flicker or cycle through amber and green states. Continuous pings show significant packet loss, and users report sporadic connectivity between the two segments. The previous switches did not exhibit this behavior.
       </th>
     </tr>
   </table>
