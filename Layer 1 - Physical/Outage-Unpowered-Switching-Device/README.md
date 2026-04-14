@@ -1,4 +1,4 @@
-# Power, Cabling, and Interface State
+# Troubleshooting: Power, Cabling, and Interface State
 
 ## Lab File
 
