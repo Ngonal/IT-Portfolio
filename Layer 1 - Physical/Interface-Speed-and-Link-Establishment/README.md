@@ -7,7 +7,7 @@
     <td align="center" style="padding: 15px;">
       <b>📦 Lab Environment</b><br>
       <sub>Cisco Packet Tracer</sub><br><br>
-      <a href="https://github.com/Ngonal/Networking-Lab-Portfolio/raw/main/Layer%201%20-%20Physical/Speed-Mismatch-Intermittent-Link-Flapping/Speed-Mismatch-Intermittent-Link-Flapping.pkt">
+      <a href="https://github.com/Ngonal/Networking-Lab-Portfolio/raw/main/Layer%201%20-%20Physical/Interface-Speed-and-Link-Establishment/Interface-Speed-and-Link-Establishment.pkt">
         <kbd>⬇️ Download Lab File (.pkt)</kbd>
       </a>
     </td>
