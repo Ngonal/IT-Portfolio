@@ -53,34 +53,13 @@ The root cause was a speed mismatch introduced during hardware replacement:
 Setting `SW3 Gi1/0/1` to auto-negotiate allowed it to match `SW4`'s hard-coded speed, restoring the interswitch link. `SW4` was subsequently set to auto-negotiate to normalize configuration across both switches.
 
 ## Bonus Tips
-### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
+### Tip #1 - Hard-coded interface speeds are a red flag. Interfaces are expected to auto-negotiate speed by default — an explicit speed setting immediately suggests intentional or erroneous misconfiguration:
+- **`speed 10`** — Forces 10 Mbps regardless of what the other end supports
+- **`speed 100`** — Forces 100 Mbps regardless of what the other end supports
+- **`speed 1000`** — Forces 1000 Mbps regardless of what the other end supports
+- **`speed auto`** — Allows the interface to negotiate speed with the remote end (default behavior)
 
-- **Administratively Down / Down** — Interface is disabled with `shutdown` command
-- **Down / Down (with cable connected)** — Possible faulty cable, incorrect cable type/pinout, or defective devices/interfaces
-- **Down / Down (no cable)** — No physical connection detected (self-explanatory)
-
-<p align="center">
-  <table align="center">
-    <tr>
-      <td align="center">
-        <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
-          <img width="800" src="Elements/Bonus1.png" border="1">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <th width="800" align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <i>Example: Fa0/1 showing "down/down" status after issuing `no shutdown`</i>
-      </th>
-    </tr>
-  </table>
-</p>
-
-> 💡 **Quick Tip(s):** A cable connects two devices. If the link doesn't come up despite a physical connection, the fault could be the cable, the local device, the remote device, or **any of their respective interfaces**. Swap with a known-good cable first:
-> - If the link comes up → Original cable was faulty
-> - Link remains down → Investigate both devices and their interfaces on each end
-> - Use a **TDR** (Time Domain Reflectometer) to quickly check for shorts or opens along the cable run — this can reveal faults on the far end without physically accessing it — Most modern cable testers include built-in TDR functionality
-
+> 💡 **Quick Tip(s):** There are rare legitimate reasons to hard-code speed — older devices that do not support auto-negotiation reliably may require it. However, in modern environments both ends should always be set to `speed auto` unless there is a specific documented reason not to. If you inherit a network where speeds are hard-coded, treat it as a misconfiguration until proven otherwise.
 ---
 
 <p align="center">
