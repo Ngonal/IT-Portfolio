@@ -24,9 +24,7 @@
   <table align="center">
     <tr>
       <td align="center">
-        <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
           <img src="Elements/Step0.png" border="1">
-        </a>
       </td>
     </tr>
     <tr>
@@ -64,9 +62,7 @@ All three conditions required correction to restore full connectivity.
   <table align="center">
     <tr>
       <td align="center">
-        <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
-          <img width="800" src="Elements/Bonus1.png" border="1">
-        </a>
+        <img width="800" src="Elements/Bonus1.png" border="1">
       </td>
     </tr>
     <tr>
