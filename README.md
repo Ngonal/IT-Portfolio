@@ -49,22 +49,16 @@ A range of simulators and emulators are valid options depending on lab complexit
 Transitions the user from `user EXEC` mode (the initial, limited-access CLI mode) to `privileged EXEC` mode, granting access to advanced monitoring and configuration commands.
 - **`configure terminal`**  
 Enters `global configuration` mode from `privileged EXEC` mode, allowing the user to modify the device’s running configuration.
-- **`?`**  
-Provides context-sensitive help:
+- **`?`** — Provides context-sensitive help:
   - When used on its own or after a command with a space (e.g., `?` or `show ?`), it displays available commands, subcommands, or arguments. **`UPPERCASE`** placeholders indicate a value you must define, **`lowercase`** keywords must be entered exactly as shown.
   - When used immediately after a partial command (e.g., `con?`), it attempts to show matching options.
   - In context-sensitive help, `<cr>` (carriage return) indicates that the command is complete and can be executed by pressing `Enter`. Additional arguments may still be available, but they are optional when `<cr>` is shown.
-- **`no`**  
-Negates or removes a commands effect when prefixed before the command . This is commonly used to disable features or delete configuration statements (e.g., `no shutdown`, `no ip address`).
-- **`do`**  
-Allows execution of `privileged EXEC` mode commands while in various configuration modes, such as `global configuration` mode.
-- **`exit`**  
-Exits the current mode and returns to the previous mode.
-- **`show`**  
-Displays operational and configuration information about the device.
+- **`no`** — Negates or removes a commands effect when prefixed before the command . This is commonly used to disable features or delete configuration statements (e.g., `no shutdown`, `no ip address`).
+- **`do`** — Allows execution of `privileged EXEC` mode commands while in various configuration modes, such as `global configuration` mode.
+- **`exit`** — Exits the current mode and returns to the previous mode.
+- **`show`** — Displays operational and configuration information about the device.
 Commonly used in `privileged EXEC` mode to verify status, interfaces, routing, and the current configuration (e.g., `show running-config`, `show ip interface brief`).
-- **`write`**, **`write memory`**, **`copy running-config startup-config`**  
-Saves the active `running-config` (in RAM) to the `startup-config` (in NVRAM). All three commands perform the same function: copying the active (running) configuration in RAM to NVRAM so it is retained after a reboot.
+- **`write`**, **`write memory`**, **`copy running-config startup-config`** — Saves the active `running-config` (in RAM) to the `startup-config` (in NVRAM). All three commands perform the same function: copying the active (running) configuration in RAM to NVRAM so it is retained after a reboot.
 >💡 **Quick Tip(s):** The commands available and how you interact with the device’s operating system depend on the current CLI mode. There are also a number of hotkeys and other shortcuts to better navigate the Cisco IOS / IOS XE CLI:
 > - Partially typed keywords are accepted if unambiguous (e.g., `en` for `enable`). The OS recognizes the unique abbreviation without requiring the full command.
 > - Press `TAB` to autocomplete a partially typed command or keyword. Only works if the abbreviation is unambiguous (e.g., `e` alone is ambiguous—could be `enable` or `exit`).
