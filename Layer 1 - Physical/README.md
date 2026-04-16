@@ -20,7 +20,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       Concepts
     </th>
     <th>
-      Simulator
+      Environment
     </th>
     <th>
       Vendors
@@ -75,7 +75,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       Concepts
     </th>
     <th>
-      Simulator
+      Environment
     </th>
     <th>
       Vendors
