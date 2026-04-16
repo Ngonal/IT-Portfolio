@@ -41,10 +41,8 @@
 ### Steps
 | Step | Observation | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
-| 1 | `SW1` is plugged into electrical outlet, verified electrical outlet is working using a known-good device (receptable tester/phone charger connected to phone), reconnected power cable to no effect, `SW1` power switch is in the **OFF** position | Toggled power switch to **ON** | `Fa0/2` LEDs illuminate; `Fa0/1` remains unlit | <img src="Elements/Step1.png"> |
+| 1 | Issuing `show interfaces status` on `SW3` immediately reveals that `Gi1/0/1` has hard-coded speed of 10 Mbps, this suggests speed mismatch between switches and we can presume other switch is not using auto-negotiation as link is entirely down | Issued `speed auto` command when configuring `Gi1/0/1` interface| Link comes up but we still assume other switch operating at non-auto, hard-coded speed and need to investigate | <img src="Elements/Step1.png"> |
 | 2 | Local RJ45 connector is seated in `SW1`'s `Fa0/1`, TDR device indicates a short on the far end of the link, remote end found disconnected from `PC1`'s `Fa0`, the end user reports accidental disconnection of the RJ45 connector | Reconnected cable to `PC1`'s `Fa0` | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/Step2.png"> |
-| 3 | Connecting to the device's CLI through the console port and using the `show ip interface brief` command to check interface status reveals that `Fa0/1` is administratively down | Issued `no shutdown` on interface | Port LED illuminates; link established | <img src="Elements/Step3.png"> |
-| 4 | Both hosts appear to have link connectivity according to their blinking interface LEDs | Tested with `ping` via Windows Command Prompt | Communication successful | <img src="Elements/Step4.png"> |
 
 ### Conclusion
 The root cause was a combination of Layer 1 failures:
