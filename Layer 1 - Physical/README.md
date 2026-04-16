@@ -94,7 +94,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       Troubleshooting
     </td>
     <td>
-      Link Stability Assessment, Speed Negotiation Analysis, Configuration Consistency Validation
+      Link Failure Assessment, Speed Mismatch Analysis, Configuration Consistency Validation
     </td>
     <td align="center">
       <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
@@ -107,7 +107,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
       </a>
     </td>
     <td>
-      Re-established network connectivity by identifying and correcting a speed mismatch introduced during hardware replacement.
+      Re-established interswitch connectivity by identifying and correcting a speed mismatch introduced during hardware replacement.
     </td>
   </tr>
 
