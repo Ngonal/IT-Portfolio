@@ -42,7 +42,7 @@
 | Step | Observation | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
 | 1 | Issuing `show interfaces status` on `SW3` immediately reveals that `Gi1/0/1` has hard-coded speed of 10 Mbps, this suggests speed mismatch between switches and we can presume other switch is not using auto-negotiation as link is entirely down | Issued `speed auto` command when configuring `Gi1/0/1` interface| Link comes up but we still assume other switch operating at non-auto, hard-coded speed and need to investigate | <img src="Elements/Step1.png"> |
-| 2 | Local RJ45 connector is seated in `SW1`'s `Fa0/1`, TDR device indicates a short on the far end of the link, remote end found disconnected from `PC1`'s `Fa0`, the end user reports accidental disconnection of the RJ45 connector | Reconnected cable to `PC1`'s `Fa0` | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/Step2.png"> |
+| 2 | Repeating previous step, we can see that `SW4`'s `Gi1/0/1` interface operating at hard-coded speed of 100 Mbps | Set interface speed to auto, confirmed speed has been set to auto by issuing `show interfaces Gi1/0/1 status` | We ensure interface will be able to operate even if other side is hard-coded for a definite speed | <img src="Elements/Step2.png"> |
 
 ### Conclusion
 The root cause was a combination of Layer 1 failures:
