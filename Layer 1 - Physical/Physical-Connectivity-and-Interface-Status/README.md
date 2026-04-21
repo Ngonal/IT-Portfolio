@@ -56,7 +56,7 @@ All three conditions required correction to restore full connectivity.
 
 - **Administratively Down / Down** — Interface is disabled with `shutdown` command
 - **Down / Down (no cable)** — No physical connection detected (self-explanatory)
-- **Down / Down (with cable connected)** — Possible faulty cable, incorrect cable type/pinout, or defective devices/interfaces
+- **Down / Down (with cable connected)** — Possible faulty cable, improperly seated connectors, incorrect cable type/pinout, or defective devices/interfaces
 
 <p align="center">
   <table align="center">
