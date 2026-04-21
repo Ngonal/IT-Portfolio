@@ -67,7 +67,7 @@ All three conditions required correction to restore full connectivity.
     </tr>
     <tr>
       <th width="800" align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <i>Example: Fa0/1 showing "down/down" state after issuing `no shutdown`</i>
+        <i>Example: Despite issuing `no shutdown`, Fa0/1 showing "down/down" state because cable is disconnected</i>
       </th>
     </tr>
   </table>
