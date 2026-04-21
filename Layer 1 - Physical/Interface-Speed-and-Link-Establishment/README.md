@@ -39,8 +39,8 @@
 ### Steps
 | Step | Observation | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:|
-| 1 | `show interfaces status` on `SW3` reveals `Gi1/0/1` is hard-coded to 10 Mbps — atypical, as interfaces are expected to auto-negotiate speed by default, and immediately suggests misconfiguration; given the link is entirely down, a speed mismatch with `SW4` is suspected | Issued `speed auto` on `SW3` `Gi1/0/1`; confirmed with `show interfaces Gi1/0/1 status` | `SW3` negotiates to `SW4`'s hard-coded speed; link establishes | <img src="Elements/Step1.png"> |
-| 2 | `show interfaces status` on `SW4` reveals `Gi1/0/1` is hard-coded to 100 Mbps — confirms the speed mismatch that caused the initial link failure | Issued `speed auto` on `SW4` `Gi1/0/1`; confirmed with `show interfaces Gi1/0/1 status` | Both interfaces now set to auto-negotiate; configuration normalized on both switches | <img src="Elements/Step2.png"> |
+| 1 | `show interfaces status` on `SW3` reveals `Gi1/0/1` is hard-coded to 10 Mbps — atypical, as interfaces are expected to auto-negotiate speed by default, and immediately suggests misconfiguration; given the link is entirely down, a speed mismatch with `SW4` is suspected | Issued `speed auto` on `SW3`'s `Gi1/0/1`; confirmed with `show interfaces Gi1/0/1 status` | `SW3` negotiates to `SW4`'s hard-coded speed; link establishes | <img src="Elements/Step1.png"> |
+| 2 | `show interfaces status` on `SW4` reveals `Gi1/0/1` is hard-coded to 100 Mbps — confirms the speed mismatch that caused the initial link failure | Issued `speed auto` on `SW4`'s `Gi1/0/1`; confirmed with `show interfaces Gi1/0/1 status` | Both interfaces now set to auto-negotiate; configuration normalized on both switches | <img src="Elements/Step2.png"> |
 | 3 | Links active, configuration normalized | Tested communication using `ping` via Windows Command Prompt | Communication successful — `write` executed to save configuration state on all updated devices. | <img src="Elements/Step3.png"> |
 
 ### Conclusion
