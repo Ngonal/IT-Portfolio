@@ -25,6 +25,12 @@ A range of simulator, emulator, and hypervisor software are valid options depend
           GNS3
         </a>
       </td>
+      <td align="center">
+        <a href="https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion" target="_blank" rel="noopener noreferrer">
+          <img src="README%20Elements/VMware-logo.png" width="40"><br>
+          GNS3
+        </a>
+      </td>
     </tr>
   </table>
 </p>
