@@ -75,7 +75,7 @@ All three conditions required correction to restore full connectivity.
 
 > 💡 **Quick Tip(s):** A cable connects two devices. If the link doesn't come up, the fault could be the cable, the local device, the remote device, or **any of their respective interfaces**. Troubleshooting steps:
 > - If possible, use a **TDR** (Time Domain Reflectometer) first to check for shorts or opens along the cable run — this can reveal faults on the far end without physically accessing it — Most modern cable testers include built-in TDR functionality
-> - - d
+  - d
 > - If the link comes up → Original cable was faulty
 > - Link remains down → Investigate both devices and their interfaces on each end
 
