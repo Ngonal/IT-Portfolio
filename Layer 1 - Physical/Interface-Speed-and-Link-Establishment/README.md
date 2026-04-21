@@ -29,7 +29,7 @@
     </tr>
     <tr>
       <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <b>📋 Scenario:</b> Two switches were recently replaced with new hardware. Following the replacement, the interswitch link fails to establish — users on both segments lose connectivity entirely. The decommissioned switches did not exhibit this behavior.
+        <b>📋 Scenario:</b> Two switches were recently replaced with new hardware. Following the replacement, the interswitch link fails to establish — users on both segments lose connectivity with each other entirely. The decommissioned switches did not exhibit this behavior.
       </th>
     </tr>
   </table>
