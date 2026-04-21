@@ -22,9 +22,9 @@ The Application Layer (Layer 5) is the closest layer to the end user, acting as 
 ---
 
 <p align="center">
-  <a href="https://github.com/Ngonal/IT-Lab-Portfolio/blob/main/README.md">🏠 Home</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Ngonal/IT-Lab-Portfolio/blob/main/Layer%201%20-%20Physical/">📁 Layer 1 - Physical</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Ngonal/IT-Lab-Portfolio/blob/main/Layer%202%20-%20Data%20Link/">📁 Layer 2 - Data Link</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Ngonal/IT-Lab-Portfolio/blob/main/Layer%203%20-%20Network/">📁 Layer 3 - Network</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Ngonal/IT-Lab-Portfolio/blob/main/Layer%204%20-%20Transport/">📁 Layer 4 - Transport</a> &nbsp;
+  <a href="../README.md">🏠 Home</a> &nbsp;|&nbsp;
+  <a href="../Layer%201%20-%20Physical/">📁 Layer 1 - Physical</a> &nbsp;|&nbsp;
+  <a href="../Layer%202%20-%20Data%20Link/">📁 Layer 2 - Data Link</a> &nbsp;|&nbsp;
+  <a href="../Layer%203%20-%20Network/">📁 Layer 3 - Network</a> &nbsp;|&nbsp;
+  <a href="../Layer%204%20-%20Transport/">📁 Layer 4 - Transport</a> &nbsp;
 </p>
