@@ -1,7 +1,7 @@
 # Layer 5 - Application
 
 ## Overview
-The Application Layer (Layer 5) is the closest layer to the end user, serving as the interface between user-facing software and the underlying network stack. It encodes, formats, and presents data in a human-readable or application-usable structure—for example, rendering HTML/CSS in a browser, negotiating encryption via TLS, or resolving domain names via DNS. This layer enables end-user interaction with network resources through protocols that abstract the complexities of data transmission.
+The Application Layer (Layer 5) is the closest layer to the end user, acting as the interface between user-facing software and the underlying network stack. It encodes, formats, and presents data in a structure usable by applications — for example, rendering HTML/CSS in a web browser, negotiating encryption through TLS, or resolving domain names via DNS. Data at this layer is processed by applications to provide a user-friendly interface that supports interaction and manipulation. Overall, the Application Layer enables end-user access to network resources through protocols that abstract the complexities of underlying data transmission.
 
 # Labs
 <div align="center">
