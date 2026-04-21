@@ -51,7 +51,7 @@ A range of simulators and emulators are valid options depending on lab complexit
   - When used on its own or after a command with a space (e.g., `?` or `show ?`), it displays available commands, subcommands, or arguments. **`UPPERCASE`** placeholders indicate a value you must define, **`lowercase`** keywords must be entered exactly as shown.
   - When used immediately after a partial command (e.g., `con?`), it attempts to show matching options.
   - In context-sensitive help, `<cr>` (carriage return) indicates that the command is complete and can be executed by pressing `ENTER`. Additional arguments may still be available, but they are optional when `<cr>` is shown.
-- **`no`** — Negates or removes a commands effect when prefixed before the command . This is commonly used to disable features or delete configuration statements (e.g., `no shutdown`, `no ip address`).
+- **`no`** — Negates or removes a commands effect when prefixed before the command. This is commonly used to disable features or delete configuration statements (e.g., `no shutdown`, `no ip address`).
 - **`do`** — Allows execution of `privileged EXEC` mode commands while in various configuration modes, such as `global configuration` mode.
 - **`exit`** — Exits the current mode and returns to the previous mode.
 - **`show`** — Displays operational and configuration information about the device.
