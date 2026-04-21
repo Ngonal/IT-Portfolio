@@ -1,7 +1,7 @@
 # Layer 1 - Physical
 
 ## Overview
-The Physical Layer (Layer 1) defines the electrical, optical, and mechanical characteristics of the media used for data transmission and, where applicable, power delivery. It converts digital data into signals — electrical voltages, light pulses, or radio frequencies — suitable for transmission across copper cabling, fiber-optic media, or wireless spectrum. This layer specifies connectors, pinouts, signaling rates, and line coding schemes. Devices such as repeaters and hubs operate at this layer, regenerating signals to extend transmission distance. Overall, the Physical Layer focuses on hardware connectivity, signaling standards, and interface configuration.
+The Physical Layer (Layer 1) defines the electrical, optical, and mechanical characteristics of the media used for data transmission and, where applicable, power delivery. It converts digital data into signals — electrical voltages, light pulses, or radio frequencies — suitable for transmission across copper cabling, fiber-optic media, or wireless spectrum. This layer specifies cables, connectors, pinouts, hardware, signaling rates, and line coding schemes. Devices such as repeaters and hubs operate at this layer, regenerating signals to extend transmission distance. Overall, the Physical Layer focuses on hardware connectivity, signaling standards, and interface configuration.
 
 # Labs
 
