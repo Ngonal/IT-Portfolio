@@ -12,11 +12,15 @@ The Network Layer (Layer 3) provides logical addressing and path determination t
 </div>
 
 ## Common Commands
-### Cisco IOS / IOS XE
+### Windows (CMD / Powershell CLI)
 - 
-### Juniper Junos OS
+### Linux (Bash CLI)
 - 
-### Fortinet FortiOS
+### Cisco (IOS / IOS XE CLI)
+- 
+### Juniper (Junos OS CLI)
+- 
+### Fortinet (FortiOS CLI)
 - 
 
 ---
