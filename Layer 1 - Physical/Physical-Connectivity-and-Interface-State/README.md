@@ -52,7 +52,7 @@ The root cause was a combination of Layer 1 failures:
 All three conditions required correction to restore full connectivity.
 
 ## Bonus Tips
-### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. A status of **`down/down`** indicates a Layer 1 issue:
+### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. A state of **`down/down`** indicates a Layer 1 issue:
 
 - **Administratively Down / Down** — Interface is disabled with `shutdown` command
 - **Down / Down (with cable connected)** — Possible faulty cable, incorrect cable type/pinout, or defective devices/interfaces
