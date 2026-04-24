@@ -1,5 +1,5 @@
 # Information
-Hands-on IT lab portfolio showcasing full-stack technical proficiency, from physical connectivity and network switching to scalable routing, secure transport, and enterprise application services. Examples illustrate a complete lifecycle of implementation, progressing from foundational configurations to complex, real-world solutions that secure and optimize the entire data path while ensuring professional documentation.
+Hands-on IT lab portfolio showcasing full-stack technical proficiency, from physical connectivity and network switching to scalable routing, secure transport, and enterprise application services. Examples illustrate a complete lifecycle of implementation, progressing from foundational configurations to complex, real-world solutions that secure and optimize the entire data path all while ensuring professional documentation.
 
 Content is organized using the **`TCP/IP 5-layer Internet model`**, with each lab categorized by the highest layer it meaningfully interacts with. Labs are also aligned with the most common IT lifecycle scenarios, covering **Provisioning**, **Maintenance**, and **Troubleshooting**.
 
