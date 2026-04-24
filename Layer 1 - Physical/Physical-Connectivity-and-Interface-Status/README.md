@@ -54,7 +54,7 @@ All three conditions required correction to restore full connectivity.
 ## Bonus Tips
 ### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. For diagnosing Layer 1 issues, check the link status and line protocol columns:
 - **Administratively Down / Down** — Interface is disabled with `shutdown` command
-- **Down / Down** — Possible causes include an absent or damaged cable, improperly seated connectors, incorrect cable type or pinout, or a local/remote device that is powered off, misconfigured, or faulty
+- **Down / Down** — Possible causes include an absent or damaged cable, improperly seated connectors, incorrect cable type or pinout, or a local/remote device and/or interface that is powered off, misconfigured, or faulty
 
 <p align="center">
   <table align="center">
