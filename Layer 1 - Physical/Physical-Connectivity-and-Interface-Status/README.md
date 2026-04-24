@@ -76,8 +76,8 @@ All three conditions required correction to restore full connectivity.
 > **Without specialized test equipment:**
 > - Verify both cable ends are firmly seated
 > - If still down → Replace with known-good cable
-> - If link comes up → Original cable was faulty
-> - If link stays down → Investigate devices and/or interfaces (speed/duplex, admin status, config mismatches, hardware failure)
+>   - If link comes up → Original cable was faulty
+>   - If link stays down → Investigate devices and/or interfaces (speed/duplex, admin status, config mismatches, hardware failure)
 > 
 > **With TDR/OTDR (copper/fiber cable testers):**
 > - Run TDR/OTDR first to detect opens, shorts, or impedance faults
