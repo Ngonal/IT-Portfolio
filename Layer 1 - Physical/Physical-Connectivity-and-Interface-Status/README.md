@@ -72,8 +72,7 @@ All three conditions required correction to restore full connectivity.
 </p>
 
 > 💡 **Quick Tip(s):**  When a link fails to establish, the fault lies in the cable, local device, remote device, or **any of their respective interfaces**. Start at Layer 1 and work up:
-> 
-**Without specialized test equipment:**
+> **Without specialized test equipment:**
 > - Verify both cable ends are firmly seated
 > - If still down → Replace with known-good cable
 > - If link comes up → Original cable was faulty
