@@ -79,13 +79,13 @@ All three conditions required correction to restore full connectivity.
 > - If link comes up → Original cable was faulty
 > - If link stays down → Investigate devices and/or interfaces (speed/duplex, admin status, config mismatches, hardware failure)
 > 
-**With TDR/OTDR (copper/fiber cable testers):**
+> **With TDR/OTDR (copper/fiber cable testers):**
 > - Run TDR/OTDR first to detect opens, shorts, or impedance faults
 >   - Most modern cable testers include built-in TDR/OTDR; some switches/routers have diagnostic commands
 > - If fault detected → Reseat both ends, then replace cable if issue persists
 > - If clean results (proper termination, no faults) → Skip cable replacement and go directly to device/interface investigation
 >
-**Device investigation:**
+> **Device investigation:**
 > - Check speed/duplex settings, admin status, configuration mismatches, and hardware failures on both ends
 
 ---
