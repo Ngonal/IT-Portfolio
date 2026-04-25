@@ -31,7 +31,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
   </tr>
   <tr>
     <td align="center">
-        <a href="./Physical-Connectivity-and-Interface-Status">
+        <a href="Physical-Connectivity-and-Interface-Status">
           Physical Connectivity and Interface Status
         </a>
     </td>
