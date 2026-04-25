@@ -29,7 +29,7 @@
     </tr>
     <tr>
       <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <b>📋 Scenario:</b> Two hosts connected to a common Layer 2 device are unable to communicate with each other. The device exhibits no link-layer connectivity, and all interface LEDs on the switching device are dark — suggesting an absence of electrical power.
+        <b>📋 Scenario:</b> Network engineers have deployed new infrastructure connecting two sites through a central router topology and subdivided the 192.168.1.0/24 network into four equal-sized subnets. The network diagram requires updated subnet labeling, and router interfaces need IP address assignments within their respective subnets to establish inter-site connectivity.
       </th>
     </tr>
   </table>
