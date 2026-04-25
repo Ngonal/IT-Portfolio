@@ -54,64 +54,9 @@ The Network Layer (Layer 3) provides logical addressing and path determination t
       Restored network connectivity after diagnosing and resolving a powered-off switch, a cable disconnected by an end user, and disabled interface.
     </td>
   </tr>
-  
-  
-  
-  <tr>
-    <th height="25" align="left" colspan="6"></th>
-  </tr>
-  
-  
-
-  <tr>
-    <th>
-      Name
-    </th>
-    <th>
-      Type
-    </th>
-    <th>
-      Concepts
-    </th>
-    <th>
-      Environment
-    </th>
-    <th>
-      Vendors
-    </th>
-    <th>
-      Key Demonstrations
-    </th>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="/Layer%201%20-%20Physical/Interface-Speed-and-Link-Establishment">
-        Interface Speed and Link Establishment
-      </a>
-    </td>
-    <td>
-      Troubleshooting
-    </td>
-    <td>
-      Link Failure Assessment, Speed Mismatch Analysis, Configuration Consistency Validation
-    </td>
-    <td align="center">
-      <a href="https://www.netacad.com/resources/lab-downloads" target="_blank" rel="noopener noreferrer">
-        <img src="../README%20Elements/Cisco-Packet-Tracer-logo.png" width="40">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.cisco.com/" target="_blank" rel="noopener noreferrer">
-        <img src="../README%20Elements/Cisco-logo.png" width="40">
-      </a>
-    </td>
-    <td>
-      Re-established interswitch connectivity by identifying and correcting a speed mismatch introduced during hardware replacement.
-    </td>
-  </tr>
+ 
 
 
-  
 </table>
 
 ## Common Commands
