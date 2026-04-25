@@ -51,7 +51,7 @@ The Network Layer (Layer 3) provides logical addressing and path determination t
       </a>
     </td>
     <td>
-      Restored network connectivity after diagnosing and resolving a powered-off switch, a cable disconnected by an end user, and disabled interface.
+      Implemented fixed-length subnetting scheme by calculating four /26 subnets from a /24 network, assigning IP addresses to router interfaces across multiple sites, and verifying end-to-end connectivity including external DNS resolution.
     </td>
   </tr>
  
