@@ -42,7 +42,7 @@
 |:---:|:---|:---|:---|:---:|
 | 1 | The network diagram reflects a partially updated topology | Subnetted 192.168.1.0/24 into four equal /26 subnets by borrowing two host bits: 192.168.1.0/26, 192.168.1.64/26, 192.168.1.128/26, 192.168.1.192/26 — labeled each subnet and interface accordingly | Network diagram updated to reflect the new addressing scheme | <img src="Elements/step1.png"> |
 | 2 | After assigning IP addresses to `R1`'s `Gi0/0/0` and `Se0/1/0` via `ip address <IP address> <IP subnet mask>`, both links remain down — `show ip interface brief` confirms that these interfaces are administratively disabled | Assigned IP addresses and issued `no shutdown` on both interfaces; repeated procedure for `R2` and `R3` | All interfaces assigned IP addresses within their respective subnets; all links active and OSPF adjacencies formed between routers according to Syslog messages | <img src="Elements/step2.png"> |
-| 3 | Testing connectivity from `PC5` to remote hosts and servers across both sites | Tested with `ping` via Windows Command Prompt | Communication successful — issued `write` on all updated devices to save configuration | <img src="Elements/step3.png"> |
+| 3 | Testing connectivity from `PC5` to remote hosts and servers across both sites | Tested communication using `ping` via Windows Command Prompt | Communication successful — `write` executed to save configuration state on all updated devices | <img src="Elements/step3.png"> |
 | 4 | Layer 7 connectivity not yet verified | Visited Cisco.com via web browser | HTTP response received successfully — Application Layer confirmed operational | <img src="Elements/step4.png"> |
 
 ### Conclusion
@@ -50,7 +50,6 @@ The provisioning tasks required to establish inter-network connectivity were com
 1. **Subnetting:** 192.168.1.0/24 subdivided into four equal /26 subnets and network diagram amended
 2. **Addressing:** IP addresses assigned to all router interfaces within their respective subnets
 3. **Activation:** Administratively down interfaces brought up with `no shutdown`
-
 ---
 
 <p align="center">
