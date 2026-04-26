@@ -125,9 +125,6 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
         </a>
     </td>
     <td>
-      Troubleshooting
-    </td>
-    <td>
       Power State Verification, Cable Integrity Assessment, Interface Status Validation
     </td>
     <td align="center">
