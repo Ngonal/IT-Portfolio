@@ -41,7 +41,7 @@ A variety of simulators, emulators, and hypervisors is used based on scenario co
 
 | Layer | Devices | Protocols/Tech | Count | Examples |
 |:---|:---|:---|:--:|:--:|
-| 5 - Application | Servers, Desktops, Load Balancers, Firewalls (NGFW / L7) | HTTP, HTTPS, DNS, DHCP, SSH, TELNET, FTP, SMTP, NTP, SNMP, SSL, TLS, Syslog | 0 | [View](Layer%205%20-%20Application) |
+| 5 - Application | Servers, Desktops, Load Balancers, Firewalls (NGFW / L7) | HTTP, HTTPS, DNS, DHCP, SSH, TELNET, FTP, SMTP, NTP, SNMP, SSL, TLS, AFP, LPP, NCP, NDR, XDR, Syslog | 0 | [View](Layer%205%20-%20Application) |
 | 4 - Transport | Firewalls (Stateful), Load Balancers | TCP, UDP, Port Numbers, Flow Control, Error Recovery | 0 | [View](Layer%204%20-%20Transport) |
 | 3 - Network (Internet) | Routers, Layer 3 (Multilayer) Switches, Firewalls (Stateless) | IPv4, IPv6, ICMP, IGMP, APIPA, SLAAC, BGP, OSPF, EIGRP, IS-IS, RIP, VRF, NAT, HSRP, VRRP, GLBP, ACLs, Subnetting, FLSM, VLSM | 1 | [View](Layer%203%20-%20Network) |
 | 2 - Data Link (Network Access) | Switches, Bridges, Wireless Access Points | Ethernet, MAC Addressing, VLANs, STP, PVST, DTP, VTP, ARP, NDP, CDP, LLDP, CDMA/CD, CDMA/CA, EtherChannel, LACP, PAgP, Autonegotiation | 0 | [View](Layer%202%20-%20Data%20Link) |
