@@ -37,12 +37,12 @@
 
 
 ### Steps
-| Step | Observation | Action Taken | Result | Image |
+| Step | Notes | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
 | 1 | Upon closer inspection, we can see that the Network Diagram has been partially updated to reflect updates | Subnetted the 192.168.1.0/24 network into 4 subnets after borrowing two of the original host bits: 192.168.1.0/26, 192.168.1.64/26, 192.168.1.128/26, 192.168.1.192/26 — proceeded to respectively label each network and interface | Network Diagram now updated to appropriately reflect changes | <img src="Elements/step1.png"> |
 | 2 | Proceeding to assign first and last usable IP addresses to the designated interfaces of every Router using the `ip address <IP address> <IP subnet mask>` starting with `R1`'s `Gi0/0/0` and `Se0/1/0`, we can see that the links remain down | After viewing the status of the respective interfaces, we can see that the routed ports of `R1` are administratively disabled — we enable them and the links are now up; we proceed to perform the same procedure for Routers `R3` and `R2` | All interfaces now assigned appropriate Ip addresses within their respective subnets; all links active and all routers have formed OSPF adjancencies with eachother according to router SYSLOG messages | <img src="Elements/step2.png"> |
-| 3 | All hosts appear to have link connectivity according to their blinking interface LEDs | Tested communication using `ping` via Windows Command Prompt | Communication successful — `write` executed to save configuration state on all updated devices | <img src="Elements/step3.png"> |
-| 4 | Both hosts appear to have link connectivity according to their blinking interface LEDs | Tested communication using `ping` via Windows Command Prompt | Communication successful — `write` executed to save configuration state on all updated devices. | <img src="Elements/step4.png"> |
+| 3 | Testing from host `PC5`, we can communicate with ther other site as well as servers that external to our own network | Tested communication using `ping` via Windows Command Prompt | Communication successful — `write` executed to save configuration state on all updated devices | <img src="Elements/step3.png"> |
+| 4 | Additionally, we also want to confirm that the Application Layer of the TCP/IP stack model is working correctly by using the Application Layer Protocol "HTTP" to be served web data | Used web browser to visit Cisco.com, web data is successfully served | <img src="Elements/step4.png"> |
 
 ### Conclusion
 The root cause was a combination of Layer 1 failures:
