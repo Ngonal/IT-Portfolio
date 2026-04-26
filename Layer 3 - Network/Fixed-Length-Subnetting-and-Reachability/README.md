@@ -7,7 +7,7 @@
     <td align="center" style="padding: 15px;">
       <b>📦 Lab Environment</b><br>
       <sub>Cisco Packet Tracer</sub><br><br>
-      <a href="https://github.com/Ngonal/IT-Portfolio/raw/main/Layer%201%20-%20Physical/Physical-Connectivity-and-Interface-Status/Physical-Connectivity-and-Interface-Status.pkt">
+      <a href="https://github.com/Ngonal/IT-Portfolio/raw/main/Layer%201%20-%20Physical/Fixed-Length-Subnetting-and-Reachability/Fixed-Length-Subnetting-and-Reachability.pkt">
         <kbd>⬇️ Download Lab File (.pkt)</kbd>
       </a>
     </td>
