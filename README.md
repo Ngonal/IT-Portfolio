@@ -43,7 +43,7 @@ A variety of simulators, emulators, and hypervisors is used based on scenario co
 |:---|:---|:---|:--:|:--:|
 | 5 - Application | Servers, Desktops, Load Balancers, Firewalls (NGFW / L7) | HTTP, HTTPS, DNS, DHCP, SSH, TELNET, FTP, SMTP, NTP, SNMP, Syslog | 0 | [View](Layer%205%20-%20Application) |
 | 4 - Transport | Firewalls (stateful), Load Balancers | TCP, UDP, Port Numbers, Flow Control, Error Recovery | 0 | [View](Layer%204%20-%20Transport) |
-| 3 - Network | Routers, Layer 3 Switches, Firewalls | IPv4, IPv6, ICMP, IGMP, APIPA, SLAAC, BGP, OSPF, EIGRP, IS-IS, RIP, VRF, NAT, HSRP, VRRP, ACLs, Subnetting, FLSM, VLSM | 1 | [View](Layer%203%20-%20Network) |
+| 3 - Network | Routers, Layer 3 (Multilayer) Switches, Firewalls | IPv4, IPv6, ICMP, IGMP, APIPA, SLAAC, BGP, OSPF, EIGRP, IS-IS, RIP, VRF, NAT, HSRP, VRRP, ACLs, Subnetting, FLSM, VLSM | 1 | [View](Layer%203%20-%20Network) |
 | 2 - Data Link | Switches, Bridges, Wireless Access Points | Ethernet, MAC Addressing, VLANs, STP, DTP, VTP, ARP, NDP, CDP, LLDP, EtherChannel | 0 | [View](Layer%202%20-%20Data%20Link) |
 | 1 - Physical | Hubs, Repeaters, Cables, Transceivers (SFPs) | Fiber, Copper, RF (Wi-Fi PHY) | 2 | [View](Layer%201%20-%20Physical) |
 
