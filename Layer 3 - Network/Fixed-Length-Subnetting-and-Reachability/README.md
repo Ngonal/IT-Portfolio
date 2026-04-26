@@ -35,8 +35,6 @@
   </table>
 </p>
 
-
-### Action Log
 | Step | Observations & Remarks | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
 | 1 | Upon closer inspection, we can see that the Network Diagram has been partially updated to reflect updates | Subnetted the 192.168.1.0/24 network into 4 subnets after borrowing two of the original host bits: 192.168.1.0/26, 192.168.1.64/26, 192.168.1.128/26, 192.168.1.192/26 — proceeded to respectively label each network and interface | Network Diagram now updated to appropriately reflect changes | <img src="Elements/step1.png"> |
