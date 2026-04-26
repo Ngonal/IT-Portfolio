@@ -3,7 +3,7 @@
 ## Overview
 The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) frame delivery within a single broadcast domain or point-to-point link. It encapsulates network-layer packets into frames, appends source and destination MAC addresses, and employs error detection (FCS/CRC) to identify corrupted frames. This layer governs media access control and handles error correction from the Physical Layer. Through switching and bridging, traffic is forwarded based on hardware addresses to the intended physical interface. In Ethernet networks, this involves MAC addressing, frame switching, and logical segmentation via VLANs.
 
-# Examples
+## Examples
 <table>
   
   
