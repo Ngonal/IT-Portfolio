@@ -6,14 +6,11 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
 ## Examples
 <table>
   <tr>
-      <th colspan="6">Provisioning</th>
+      <th colspan="5">Provisioning</th>
   </tr>
   <tr>
     <th>
       Name
-    </th>
-    <th>
-      Type
     </th>
     <th>
       Concepts
@@ -35,8 +32,6 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
     </td>
     <td>
     </td>
-    <td>
-    </td>
     <td align="center">
       <a href="">
         <img src="" width="40">
@@ -50,19 +45,17 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
     <td>
     </td>
   </tr>
-</table>
 
-
-<table>
   <tr>
-      <th colspan="6">Maintenance</th>
+    <th height="50" align="left" colspan="6"></th>
+  </tr>
+
+  <tr>
+      <th colspan="5">Maintenance</th>
   </tr>
   <tr>
     <th>
       Name
-    </th>
-    <th>
-      Type
     </th>
     <th>
       Concepts
@@ -84,8 +77,6 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
     </td>
     <td>
     </td>
-    <td>
-    </td>
     <td align="center">
       <a href="">
         <img src="" width="40">
@@ -99,18 +90,17 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
     <td>
     </td>
   </tr>
-</table>
 
-<table>
   <tr>
-      <th colspan="6">Troublshooting</th>
+    <th height="50" align="left" colspan="6"></th>
+  </tr>
+
+  <tr>
+      <th colspan="5">Troubleshooting</th>
   </tr>
   <tr>
     <th>
       Name
-    </th>
-    <th>
-      Type
     </th>
     <th>
       Concepts
@@ -129,8 +119,6 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
     <td align="center">
         <a href="">
         </a>
-    </td>
-    <td>
     </td>
     <td>
     </td>
