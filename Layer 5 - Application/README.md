@@ -4,11 +4,10 @@
 The Application Layer (Layer 5) is the closest layer to the end user, acting as the interface between user-facing software and the underlying network stack. It encodes, formats, and presents data in a structure usable by applications — for example, rendering HTML/CSS in a web browser, negotiating encryption through TLS, or resolving domain names via DNS. Data at this layer is processed by applications to provide a user-friendly interface that supports interaction and manipulation. Overall, the Application Layer enables end-user access to network resources through protocols that abstract the complexities of underlying data transmission.
 
 ## Examples
-### Provisioning
 <table>
-  
-  
-  
+  <tr>
+      <th colspan="6">Provisioning</th>
+  </tr>
   <tr>
     <th>
       Name
@@ -51,16 +50,13 @@ The Application Layer (Layer 5) is the closest layer to the end user, acting as 
     <td>
     </td>
   </tr>
-  
-
-
 </table>
 
-### Maintenance
+
 <table>
-  
-  
-  
+  <tr>
+      <th colspan="6">Maintenance</th>
+  </tr>
   <tr>
     <th>
       Name
@@ -103,14 +99,9 @@ The Application Layer (Layer 5) is the closest layer to the end user, acting as 
     <td>
     </td>
   </tr>
-  
-
-
 </table>
 
-### Troubleshooting
 <table>
-  
   <tr>
       <th colspan="6">Troublshooting</th>
   </tr>
@@ -156,10 +147,8 @@ The Application Layer (Layer 5) is the closest layer to the end user, acting as 
     <td>
     </td>
   </tr>
-  
-
-
 </table>
+
 
 ## Common Commands
 ### Windows (CMD / Powershell CLI)
