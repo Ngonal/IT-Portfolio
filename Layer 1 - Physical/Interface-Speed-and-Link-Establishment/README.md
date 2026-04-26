@@ -50,14 +50,14 @@ The root cause was a speed mismatch introduced during hardware replacement:
 1. **`SW3`'s `Gi1/0/1`:** Hard-coded to 10 Mbps
 2. **`SW4`'s `Gi1/0/1`:** Hard-coded to 100 Mbps
 
-Setting `SW3` `Gi1/0/1`'s to autonegotiate allowed it to match `SW4`'s hard-coded speed, restoring the interswitch link. `SW4` was subsequently set to auto-negotiate to normalize configuration across both switches.
+Setting `SW3` `Gi1/0/1`'s to autonegotiation allowed it to match `SW4`'s hard-coded speed, restoring the interswitch link. `SW4` was subsequently set to autonegotiation to normalize configuration across both switches.
 
 ## Bonus Tips
-### Tip #1 - Hard-coded interface speeds are a red flag. Interfaces are expected to auto-negotiate speed by default — an explicit speed setting immediately suggests intentional or erroneous misconfiguration:
+### Tip #1 - Hard-coded interface speeds are a red flag. Interfaces are expected to be set to autonegotiation speed by default — an explicit speed setting immediately suggests intentional or erroneous misconfiguration:
 - **`speed 10`**, **`speed 100`**, **`speed 1000`** — Forces the speed in Mbps regardless of what the other end supports
-- **`speed auto`** — Allows the interface to negotiate speed with the remote end (default behavior)
+- **`speed auto`** — Allows the interface to use autonegotiation to determine speed with the remote end (default behavior)
 
-> 💡 **Quick Tip(s):** There are rare legitimate reasons to hard-code speed — older devices that do not support auto-negotiation reliably may require it. However, in modern environments both ends should always be set to `speed auto` unless there is a specific documented reason not to. If you inherit a network where speeds are hard-coded, treat it as a misconfiguration until proven otherwise.
+> 💡 **Quick Tip(s):** There are rare legitimate reasons to hard-code speed — older devices that do not support autonegotiation reliably may require it. However, in modern environments both ends should always be set to `speed auto` unless there is a specific documented reason not to. If you inherit a network where speeds are hard-coded, treat it as a misconfiguration until proven otherwise.
 ---
 
 <p align="center">
