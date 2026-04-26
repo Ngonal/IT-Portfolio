@@ -6,7 +6,7 @@ The Physical Layer (Layer 1) defines the electrical, optical, and mechanical cha
 ## Examples
 <table>
   <tr>
-      <th colspan="6"><b>Maintenance</b></th>
+      <th colspan="6">Provisioning</th>
   </tr>
   <tr>
     <th>
