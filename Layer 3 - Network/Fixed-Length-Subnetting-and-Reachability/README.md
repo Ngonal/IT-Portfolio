@@ -44,11 +44,10 @@
 | 4 | Layer 7 connectivity not yet verified | Visited Cisco.com via web browser | HTTP response received successfully — Application Layer confirmed operational | <img src="Elements/step4.png"> |
 
 ### Conclusion
-The root cause was a combination of Layer 1 failures:
-1. **Physical:** Disconnected cable and unpowered switch
-2. **Administrative:** `shutdown` applied to interface
-
-All three conditions required correction to restore full connectivity.
+The provisioning tasks required to establish inter-network connectivity were completed in the following order:
+1. **Subnetting:** 192.168.1.0/24 subdivided into four equal /26 subnets
+2. **Addressing:** IP addresses assigned to all router interfaces within their respective subnets
+3. **Activation:** Administratively down interfaces brought up with `no shutdown`
 
 ## Bonus Tips
 ### Tip #1 - The `show ip interface brief` command provides a quick health check of all interfaces. For diagnosing Layer 1 issues, check the link status and line protocol columns:
