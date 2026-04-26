@@ -45,8 +45,8 @@
 
 ### Conclusion
 The root cause was a speed mismatch introduced during hardware replacement:
-1. **SW3's Gi1/0/1:** Hard-coded to 10 Mbps
-2. **SW4's Gi1/0/1:** Hard-coded to 100 Mbps
+1. **`SW3`'s `Gi1/0/1`:** Hard-coded to 10 Mbps
+2. **`SW4`'s `Gi1/0/1`:** Hard-coded to 100 Mbps
 
 Setting `SW3` `Gi1/0/1`'s to auto-negotiate allowed it to match `SW4`'s hard-coded speed, restoring the interswitch link. `SW4` was subsequently set to auto-negotiate to normalize configuration across both switches.
 
