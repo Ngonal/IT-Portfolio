@@ -5,9 +5,9 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
 
 ## Examples
 <table>
-  
-  
-  
+  <tr>
+      <th colspan="6">Provisioning</th>
+  </tr>
   <tr>
     <th>
       Name
@@ -50,9 +50,103 @@ The Data Link Layer (Layer 2) facilitates reliable node-to-node (intra-network) 
     <td>
     </td>
   </tr>
-  
+</table>
 
 
+<table>
+  <tr>
+      <th colspan="6">Maintenance</th>
+  </tr>
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Type
+    </th>
+    <th>
+      Concepts
+    </th>
+    <th>
+      Environment
+    </th>
+    <th>
+      Vendors
+    </th>
+    <th>
+      Key Demonstrations
+    </th>
+  </tr>
+  <tr>
+    <td align="center">
+        <a href="">
+        </a>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" width="40">
+      </a>
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" width="40">
+      </a>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+      <th colspan="6">Troublshooting</th>
+  </tr>
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Type
+    </th>
+    <th>
+      Concepts
+    </th>
+    <th>
+      Environment
+    </th>
+    <th>
+      Vendors
+    </th>
+    <th>
+      Key Demonstrations
+    </th>
+  </tr>
+  <tr>
+    <td align="center">
+        <a href="">
+        </a>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" width="40">
+      </a>
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" width="40">
+      </a>
+    </td>
+    <td>
+    </td>
+  </tr>
 </table>
 
 ## Common Commands
