@@ -37,7 +37,7 @@
 
 
 ### Steps
-| Step | Observation | Action Taken | Result | Image |
+| Step | Notes | Action Taken | Result | Image |
 |:---:|:---|:---|:---|:---:| 
 | 1 | `SW1` is plugged into electrical outlet, verified electrical outlet is working using a known-good device (receptable tester/phone charger connected to phone), reconnected power cable to no effect, `SW1` power switch is in the **OFF** position | Toggled power switch to **ON** | `Fa0/2` LEDs illuminate; `Fa0/1` remains unlit | <img src="Elements/step1.png"> |
 | 2 | Local RJ45 connector is fully seated in `SW1`'s `Fa0/1`, TDR device indicates an open circuit on the far end of the physical link, remote end found disconnected from `PC1`'s `Fa0`, the end user reports accidental disconnection of the RJ45 connector | Reconnected cable to `PC1`'s `Fa0` to close the electrical circuit loop | No change; `Fa0/1` LEDs remain unilluminated | <img src="Elements/step2.png"> |
