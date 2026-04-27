@@ -83,7 +83,7 @@ All three conditions required correction to restore full connectivity.
 > 
 > **With TDR/OTDR (copper/fiber cable testers):**
 > - Run TDR/OTDR first to detect opens, shorts, or impedance faults
->   - Most modern cable testers include built-in TDR/OTDR; some switches/routers have diagnostic commands
+>   - Most modern cable testers include a built-in TDR/OTDR; some switches/routers have diagnostic commands
 >   - If fault detected → Reseat both ends, then replace cable if issue persists
 >   - If clean results (proper termination, no faults) → Skip cable replacement and go directly to device/interface investigation
 >
