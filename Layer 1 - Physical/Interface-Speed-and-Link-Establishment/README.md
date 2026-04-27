@@ -53,7 +53,7 @@ The root cause was a speed mismatch introduced during hardware replacement:
 Setting `SW3` `Gi1/0/1`'s to autonegotiation allowed it to match `SW4`'s hard-coded speed, restoring the interswitch link. `SW4` was subsequently set to autonegotiation to normalize configuration across both switches.
 
 ## Bonus Tips
-### Tip #1 - Hard-coded interface speeds are a red flag. Interface speeds are expected to be determined by autonegotiation speed by default — an explicit speed setting immediately suggests intentional or erroneous misconfiguration:
+### Tip #1 - Hard-coded interface speeds are a red flag. Interface speeds are expected to be determined by autonegotiation by default — an explicit speed setting immediately suggests intentional or erroneous misconfiguration:
 - **`speed 10`**, **`speed 100`**, **`speed 1000`** — Forces the speed in Mbps regardless of what the remote interface is operating at
 - **`speed auto`** — Allows the interface to use autonegotiation to determine speed with the remote end (default behavior)
 
