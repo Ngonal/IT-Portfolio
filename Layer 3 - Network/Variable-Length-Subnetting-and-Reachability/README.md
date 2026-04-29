@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <th align="left" colspan="6" style="padding: 10px 12px; background-color: #eaeef2; border-bottom: 1px solid #d0d7de; text-align: left;">
-        <b>📋 Scenario:</b> Network engineers have deployed new infrastructure connecting two sites through a central router topology and subdivided the 192.168.1.0/24 network into four equal-sized subnets. The network diagram requires updated subnet labeling, and router interfaces need IP address assignments within their respective subnets to establish inter-network connectivity.
+        <b>📋 Scenario:</b> A new site requires an additional subnet carved from the previously allocated 192.168.1.0/24 address space. One of the existing /26 subnets must be subnetted into the maximum number of subnets supporting at least 8 hosts each. The last of those subnets must then be further subnetted into /30s to accommodate point-to-point links while conserving address space.
       </th>
     </tr>
   </table>
